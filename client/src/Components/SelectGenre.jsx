@@ -33,5 +33,12 @@ const Select = styled.select`
   font-size: 1.4rem;
   background-color: rgba(0, 0, 0, 0.4);
   color: white;
+  @media (max-width:900px) {
+    margin-left: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+  }
 `;
 
